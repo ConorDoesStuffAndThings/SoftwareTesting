@@ -15,6 +15,9 @@ class RobotTest {
         assertEquals("buddy", buddy.getName());
     }
 
+    private void assertEquals(String buddy, String name) {
+    }
+
     @org.junit.jupiter.api.Test
     void setName() {
     }
@@ -22,6 +25,9 @@ class RobotTest {
     @org.junit.jupiter.api.Test
     void getAge() {
         assertEquals(10, buddy.getAge());
+    }
+
+    private void assertEquals(int i, int age) {
     }
 
     @org.junit.jupiter.api.Test
